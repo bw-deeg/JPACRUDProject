@@ -1,0 +1,28 @@
+DemoStreamingDB.mwb
+====================
+database: streamersdb
+user: tvSnobber / tvSnobber
+table: streaming_service: 
+
+int(10)
+decimal(5,2)
+varchar(50)    : URL to the image
+text
+boolean / tinyint(1)
+datetime
+	date
+	time
+
+database: streamersdb
+user: tvSnobber / tvSnobber
+table: streaming_service: 
+
+	1, Hulu, Nov 21 2023, 1.99
+	2, Amazon, Nov 20 2023, 98
+	33, Apple, Nov 20, 2023, 4.99
+
+table: streaming_service:
+id			int		PK		auto_increment
+name		varchar(50)	
+start_date 	datetime	
+cost		decimal(5,2)

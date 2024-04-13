@@ -1,0 +1,2 @@
+rootProject.name = 'BootStreamingServices'
+includeFlat 'JPAStreamingServices'
